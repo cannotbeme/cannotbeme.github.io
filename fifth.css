@@ -1,0 +1,29 @@
+html {
+    background-color: aquamarine;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    /* padding: 12px 36px; */
+    font-size: 20px;
+    display: block;
+    background-color: grey;
+}
+
+li:hover {
+    background-color: lightslategrey;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 12px 36px;
+}
