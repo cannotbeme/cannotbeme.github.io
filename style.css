@@ -26,9 +26,4 @@ a {
     color: white;
     display: inline-block;
     padding: 12px 36px;
-    /* background-color: grey; */
-}
-
-a:hover {
-    /* background-color: lightslategrey; */
 }
