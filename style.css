@@ -2,11 +2,29 @@ html {
     background-color: aquamarine;
 }
 
+body {
+    margin: 3rem;
+}
+
 .navbar {
     background-color: pink;
 }
 
-#navbar {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    background-color: grey;
+    width: 100%;
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    overflow: hidden;
+}
+
+/* #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,7 +32,7 @@ html {
     padding-inline-end: 40px;
     background-color: grey;
     width: 100%;
-}
+} */
 
 li {
     float: left;
