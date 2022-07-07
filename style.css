@@ -2,10 +2,18 @@ html {
     background-color: aquamarine;
 }
 
+.navbar {
+    background-color: pink;
+}
+
 #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    background-color: grey;
+    width: 100%;
 }
 
 li {
@@ -27,3 +35,4 @@ a {
     display: inline-block;
     padding: 12px 36px;
 }
+
