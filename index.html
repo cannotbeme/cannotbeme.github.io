@@ -11,16 +11,32 @@
     </head>
     <body>
 
+        <!-- Grade selection bar -->
+        <div class="dropdown_selection">
+            <button class="dropdown_button">4.Klasse</button>
+            <div class="dropdown_links">
+                <a href='fifth.html'>5.Klasse</a>
+                <a href='sixth.html'>6.Klasse</a>
+            </div>
+        </div>
+
+
+
         <h1> Title </h1>
         
         <!-- navigation bar -->
         <div class='navbar'>
             <ul id='navbar'>
-                <li><a href='index.html'>4.Klasse</a></li>
-                <li><a href='fifth.html'>5.Klasse</a></li>
-                <li><a href='sixth.html'>6.Klasse</a></li>
+                <li><button type='button' onclick='show_math()'>Mathematik</button></li>
+                <!-- <li><a class='some_selection' href='index.html'>4.Klasse</a></li> -->
+                <li><a class='some_selection' href='fifth.html'>5.Klasse</a></li>
+                <li><a class='some_selection' href='sixth.html'>6.Klasse</a></li>
             </ul>
         </div>
 
+        <button type='button' id="Testt" href="/Exams/Biglion.pdf" download>Biglion</button>
+        <a id="Test" href="/Exams/Biglion.pdf" download>Biglion#2</a>
+
+        <script src="index.js"></script>
     </body>
 </html>
